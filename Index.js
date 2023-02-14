@@ -24,7 +24,7 @@ button.addEventListener('click', (e)=>{
 
 
     
-
+// Validar el nombre
 function validar_nombre(valueInput, divInput){
     if (valueInput.length == 0){
         divInput.style.border = '3px solid red ';
@@ -48,8 +48,7 @@ function validar_nombre(valueInput, divInput){
         
      
 
-
-
+// Validar el correo
 function validar_correro (valueInput, divInput,correctInput){
     if (valueInput.length == 0){
         divInput.style.border = '3px solid red ';
@@ -77,6 +76,8 @@ function validar_correro (valueInput, divInput,correctInput){
 
 }
 
+
+// Validar Contraseña
 function validar_clave (valueInput, divInput){
     if (valueInput.length == 0){
         divInput.style.border = '3px solid red ';
@@ -90,6 +91,7 @@ function validar_clave (valueInput, divInput){
         document.getElementById("iconError_clave").style.display = 'block';
         document.getElementById("iconSuccess_clave_apta").style.display = 'none';
         document.getElementById("success_clave").style.display= 'none';
+        document.getElementById("vacio_clave").style.display = 'none';
      } else{
         divInput.style.border = '3px solid green';
         document.getElementById("vacio_clave").style.display = 'none';
@@ -105,7 +107,7 @@ function validar_clave (valueInput, divInput){
     
 }
 
-
+//Validar la confirmacion de contraseña
 function validar_confirmacion (valueInput, divInput, clave1){ 
 
     if (valueInput.length == 0){
@@ -119,7 +121,7 @@ function validar_confirmacion (valueInput, divInput, clave1){
         document.getElementById("error_confirmacion").style.display = 'block';
         document.getElementById("iconError_confirmacion").style.display = 'block';
      document.getElementById("iconSuccess_confirmacion").style.display = 'none';
-     
+     document.getElementById("vacio_confirmacion").style.display = 'none';
 
 
 
