@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form id="formulario">
+        <fieldset class="formulario">
+            <h1>Create Account</h1><br> 
+
+            <div id="seccion_nombre" class="form_seccion"> 
+
+                <label for="Nombre" class="letras">Nombre</label><br>
+                    
+                <input class="relleno" type="text" id="Nombre" name="Nombre" pattern="[A-Za-z]*" title="Solo letras">
+                     
+                <div id="nombre.error" class="contenedor">
+                    <img id="iconError" class="iconError" src="./images/error-icon.svg">
+                     <p id="vacio" class="input_error_vacio">Rellene el campo</p>
+                    <img id="iconSuccess" class="iconSuccess" src="./images/success-icon.svg">
+                    <p class="input_error">No use caracteres especiales</p>
+                </div>
+            </div>
+            
+            
+            <div id="seccion_email" class="form_seccion">
+                <label for="Email" class="letras">Email</label><br>
+                
+                <input class="relleno" type="email" id="Email" name="Email">
+                        
+
+                <div id="email.error" class="contenedor">
+                    <img id="iconError_email" class="iconError" src="./images/error-icon.svg">
+                     <p id= "vacio_email" class="input_error_vacio">Rellene el campo</p>
+                     <img id="iconSuccess_email" class="iconSuccess" src="./images/success-icon.svg">
+                     <p id="error_correo" class="input_error">Email incorrecto</p>
+                </div>
+            </div>
+            
+            <div id="seccion_clave" class="form_seccion">
+                <label for="Clave" class="letras">Clave</label><br>
+            
+                <input class="relleno" type="password" id="Clave" name="Clave">
+                        
+                
+                <div id="clave.error" class="contenedor">
+                    <img id="iconError_clave" class="iconError" src="./images/error-icon.svg">
+                     <p id= "vacio_clave" class="input_error_vacio">Rellene el campo</p>
+                     <p id="error_clave" class="input_error">No debe tener más de 8 caracteres</p>
+                     <p id="success_clave" class="input_success">Contraseña apta</p>
+                     <img id="iconSuccess_clave_apta" class="iconSuccess_clave_apta" src="./images/success-icon.svg">
+                </div>
+            </div>
+            
+            <div id="seccion_confimacion" class="form_seccion">
+                <label class="letras">Confirme su clave</label><br>
+                
+                <input class="relleno" type="password" id="Confirmacion" name="Confirmacion">
+                        
+                
+                <div id="confirmacion.error" class="contenedor">
+                    <img id="iconError_confirmacion" class="iconError" src="./images/error-icon.svg">
+                    <p id= "vacio_confirmacion" class="input_error_vacio">Rellene el campo</p>
+                    <img id="iconSuccess_confirmacion" class="iconSuccess" src="./images/success-icon.svg">
+                    <p id="error_confirmacion" class="input_error">Las contraseñas no coinciden</p>
+                </div>
+               
+            </div>
+            
+
+            <input id="submit" class="boton" type="submit" value="ENVIAR">
+
+        </fieldset>
+    </form>
+   <script type="text/javascript" src="Java.js"></script> 
+</body>
+</html>

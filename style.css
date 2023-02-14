@@ -1,0 +1,145 @@
+
+
+*{
+    background-color:#282832;
+}
+
+.formulario {
+ width: 350px;
+ height: 525px;
+ border-radius: 0.25em;
+ border-style: solid;
+ border-width: 2px;
+ border-color: #4d4d66;
+ background:#333348 ;
+ margin-top: 2.5%;
+ margin-left: 35%;
+ box-shadow: 7px 13px 37px;
+}
+
+.formulario h1{
+ background-color: #333348 ;
+ font-family: sans-serif;
+ font-size: 27px;
+ color:  rgb(190, 180, 255);
+ margin-left: 6%;
+ margin-bottom: 3%;
+}
+
+.letras {
+    background-color: #333348 ;
+    color: rgb(159, 150, 219);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin-left: 6%
+    
+}
+ 
+.relleno{
+    padding: 10.5px;
+    margin-left: 6%;
+    margin-bottom: 0px;
+    margin-top: 0.2%;
+    width: 80%;
+    border-radius: 0.3em;
+    border:3px solid transparent;
+    color: black;
+    background-color: white;
+}
+
+
+.form_seccion {
+    background-color:#333348 ;
+    margin-bottom: 5%
+
+}
+
+
+.boton{
+    padding: 10.5px;
+    margin-left: 6%;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    width: 87%;
+    background-color: rgb(98, 133, 249);
+    color: white;
+    border-radius: 0.3em;
+
+}
+
+
+.input_error_vacio{
+    background-color:#333348 ;
+    margin-top: 0.4%;
+    margin-bottom: 0%;
+    margin-left: 6%;
+   color: rgb(178, 74, 74);
+   font-size: 13.5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: none;
+}
+
+.contenedor {
+    position: relative;
+    background-color: #333348;
+}
+   
+
+.iconError{
+    position: absolute;
+    right:32px;
+    bottom: 28px;
+    background-color: white;
+    display:none;
+}
+
+.iconSuccess{
+    position: absolute;
+    right:30px;
+    bottom: 12px;
+    background-color: white;
+    display: none ;
+
+}
+
+.iconSuccess_clave_apta{
+    position: absolute;
+    right:30px;
+    bottom: 28px;
+    background-color: white;
+    display:none ;
+
+}
+
+.input_error {
+    background-color:#333348 ;
+    margin-top: 0.4%;
+    margin-bottom: 0%;
+    margin-left: 6%;
+   color: rgb(178, 74, 74);
+   font-size: 13.5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: none;
+
+}
+
+.input_success{
+    background-color:#333348 ;
+    margin-top: 0.4%;
+    margin-bottom: 0%;
+    margin-left: 6%;
+   color: rgb(72, 159, 48);
+   font-size: 13.5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: none;
+}
+
+
+
+
+
+
+    
+
+
+
